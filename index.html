@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Álbum casamento01</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbum de Casamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 15;
+            padding: 0;
+            background-image: url('https://lh3.googleusercontent.com/pw/AP1GczM9DNduBM4tTXgjUz_0RydxHZs8VJUE88mHpJjtku09Wwrq8muVw9adcwq8fE6YDV06e9L0xmiBqO4pnld0HdXAjBPQLyqpLIK-qChf176KNdbiCD2MiPJ8aCK4lfg2DZaycj1FX3S-XxBrzVTSAlcG-w=w911-h607-s-no-gm?authuser=0'); /* Coloque o caminho da imagem de fundo */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .banner {
+            width: 100%;
+            text-align: right corner;
+            padding: 45px;
+            background-image: url('https://encurtador.com.br/UA0gq'); /* Coloque o caminho da imagem do banner */
+            background-size: cover;
+            background-position: center;
+            color: #af3a3f;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Sombra no título */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 35px;
+            color: #ffffff;
+            cursor: pointer;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .close:hover {
+            color: #ff4081;
+        }
+
+        footer {
+            width: 100%;
+            background-color: rgba(17, 12, 10, 10.7);
+            color: #fff;
+            padding: 15px;
+            font-size: 0.9em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .photographer-name {
+            text-align: right;
+            margin-left: auto;
+        }
+
+        /* Estilo do botão WhatsApp */
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .whatsapp-button:hover {
+            background-color: #1EBE57;
+        }
+    </style>
+</head>
+<body>
+
+<div class="banner">
+    Rita & Miquéias
+</div>
+
+<div class="gallery">
+    <img src="https://encurtador.com.br/Wsz4T" alt="Foto 1">
+    <img src="https://encurtador.com.br/TL2l9" alt="Foto 2">
+    <img src="https://encurtador.com.br/NeoAs" alt="Foto 3">
+    <img src="https://abrir.link/cixhH" alt="Foto 4">
+    <img src="https://bit.ly/3YvKHT0" alt="Foto 5">
+  <img src="https://bit.ly/48Cgfet" alt="Foto 1">
+    <img src="https://bit.ly/4hDCBjM" alt="Foto 2">
+    <img src="https://bit.ly/4edSVF3" alt="Foto 3">
+    <img src="https://bit.ly/40DngtB" alt="Foto 4">
+    <img src="https://bit.ly/3Cp8QDc" alt="Foto 5">
+  <img src="https://bit.ly/3NTwOJB" alt="Foto 1">
+    <img src="https://bit.ly/3UDuz0C" alt="Foto 2">
+    <img src="https://bit.ly/3UD8U8K" alt="Foto 3">
+    <img src="https://bit.ly/4fBdgFo" alt="Foto 4">
+    <img src="https://abre.ai/lqh0" alt="Foto 5">
+  <img src="https://abre.ai/lqh2" alt="Foto 1">
+    <img src="https://abre.ai/lqh5" alt="Foto 2">
+    <img src="https://abre.ai/lqh6" alt="Foto 3">
+    <img src="https://abre.ai/lqh7" alt="Foto 4">
+    <img src="https://abre.ai/lqh8" alt="Foto 5">
+  <img src="https://abre.ai/lqh9" alt="Foto 1">
+    <img src="https://abre.ai/lqib" alt="Foto 2">
+    <img src="https://abre.ai/lqic" alt="Foto 3">
+    <img src="https://abre.ai/lqid" alt="Foto 4">
+    <img src="https://abre.ai/lqie" alt="Foto 5">
+  <img src="https://abre.ai/lqif" alt="Foto 1">
+    <img src="https://abre.ai/lqih" alt="Foto 2">
+    <img src="https://abre.ai/lqii" alt="Foto 3">
+    <img src="https://abre.ai/lqij" alt="Foto 4">
+    <img src="https://abre.ai/lqim" alt="Foto 5">
+  <img src="https://abre.ai/lqin" alt="Foto 5">
+  <img src="https://abre.ai/lqip" alt="Foto 5">
+  <img src="https://abre.ai/lqir" alt="Foto 5">
+  <img src="https://abre.ai/lqis" alt="Foto 5">
+   <img src="https://abre.ai/lqiu" alt="Foto 5">
+  <img src="https://abre.ai/lqiw" alt="Foto 5">
+<img src="https://lh3.googleusercontent.com/pw/AP1GczO_7aU_uTIkaXfX_bWRx4HN81UCJGjsyFFQX5-5yzpnHxfHPBSNnIPT8NykrY9Ozfu8FmLT3slGjGaY3-jllLnxdymMFSZ5ALwTrpBW7CQid-7c5p7PMAacKQvNnN5FUiwwSl5F2BJjduK0dp1rQ7PB5A=w911-h607-s-no-gm?authuser=0" alt="Foto 1">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOmBi9Tc8AD19xqz9-3rwxl_fm25SlVU97bp6r-wWDTtczHIR9nURy3GHlaSI2cC6jByNffoCG52cI69nOc5RM3E4oLnUj7hKriSgcTNXW1ggHUsQcylZek8c0oTR-rLUwGi6Q1rYoMtm4KXD98hUHQtQ=w911-h607-s-no-gm?authuser=0" alt="Foto 2">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczPepkpfmjX6T-md8Rs9PdMysrk7eQYCNBmmGsOFNPXwGYgpUfnbuBaM85TbbTr9IsdKH9UmuHZMFCDS68YRoTc7athdwPv8usdRvlm652vWlFyUc9MDOY2SP7P_q0njoVhZCEJSUh30lB1BiGjV1XSaiw=w911-h607-s-no-gm?authuser=0" alt="Foto 3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczMNPPYDxrmWuFjuvdoORsrTYog40ostV_NzCSgCWY_ha_5ahzy6BTH6N-j17jGHBd6DxC7ORAh5wiGsKAjWkkMOxkMhJUYhBAapixnNu3HRZGcUfh97iBS6_4m-lePIyyD63pbxjnI_d0WAqyh83DVQkw=w911-h607-s-no-gm?authuser=0" alt="Foto 4">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczN8E3YOk56IGQ_ZE16AFtCxwpkPkcA5I9RWK7JyUcsU_riPU7Wrv2xROT_R-BgpR1U-HZkEMWOhYWR2V3DSfQfQCwX5RJF2DmBWvpbUL66uzMmbdFfFsdb1Q_p01Z6GpYQoFrlAAn10C4XSWr_0suuXVg=w911-h607-s-no-gm?authuser=0" alt="Foto 5">
+  <img src="https://lh3.googleusercontent.com/pw/AP1GczO7UCX8Oe1mWkYCZKoG_rM9kegn2H2RiTwRticNrasCnWTInItPC98IpRVyOIvAKwKidx_n9ofYkY4Odzkz35bbdnHADhvbVtjhH_Y5TXwzqZc1abvREnNgO0EWFc_JSO_-hJZBlzTS0BZlUKt-msRODQ=w911-h607-s-no-gm?authuser=0" alt="Foto 1">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczODKoFQ7sEEQc7OPy1CMRMk9uTmjksVve9dQQbG4KY4W9WpDl1zbb7m9_Ld96oHcRQz0fL_KAQi2b31I7JNjkkcXG1yIXM1JtBRO_5S4ZK3ylKjekN0kFT3fXeAehvjiITla_25vZn70Sua8tupzhE_xg=w911-h607-s-no-gm?authuser=0" alt="Foto 2">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczPkOyIaiLvFqUbcKIAU4PpAzGw1bDNQu7o4qPkvhlDMDL3GjqU584vu9iAFC_BvyyzqaakJrw-ainMdlQT02GgpvhtocJMiEsXr25m9MU3JXKvkdQ2tvdu6ugpT7e7EG4gxNHwG1120fiuub6awlV1MJg=w911-h607-s-no-gm?authuser=0" alt="Foto 3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczPR-y0z0jZnY3KmWOeobG6SRW99kx_0hGQEJgX761rrwxCLo59fqmIDlhoZgunnHzbyjLyBn05G4XWwxgJBULO2Xyqthh8w1xpAifxQyk7Oz-08AIAUlNjZYACMd2u8oXgc7F-8le287kzynlexjreBRw=w911-h607-s-no-gm?authuser=0" alt="Foto 4">
+  <img src="https://lh3.googleusercontent.com/pw/AP1GczNKasHscjhOcudoJ05CWMWG3viXJWuCMQYOK1XRK2qJ30zEuqz6DB5fcspwJ_ySvIrhai_9q3OVVYW_D7_yhtP66T4L_WwWjWDycOWektG291YKU6SZ2Z3xH562AA6WQfymz1KbjlapiDWVezaWn-hE9g=w911-h607-s-no-gm?authuser=0" alt="Foto 1">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNFH8kVvao3gQcwicGioh7tdIGIynYTzH4BK3l-HOEz8Eii8ct14O7LALiTH0r7NZJ2GCHW2KIVmAmPr1rDAbowWw1kYQvWSKZ0V9_XEFT6lKC6Cbrw7se1X6-rvfzlpYrIzp-KHmu4A0rVm0wPT0dttA=w911-h607-s-no-gm?authuser=0" alt="Foto 2">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczNlzvgR0TY0OJbedYm5FWG4shqXnR9EOokVEDp_57XuEEgvmAFCXN_NQLJc8nZOVVF_QPoIFASQ25Tyguq0rSGXO1qwnv5ZFMqFnw1LkzVncKw95CQeJMlPI0MIX5XjFLOSGCOWcISDVDwqrPU_qVby3w=w911-h607-s-no-gm?authuser=0" alt="Foto 3">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOutnSB-cUfP2XJDZ1NVuJqbOHAmpFLnXOrowz-ewFgwurplR00ArEPwyb71DSXkUQFEebvHx5w2htZws5T0TlF39wH0OVjf2BgOLJ7MjzK2b6gX1jS1yF9HYF9RX1Ktu0CSnfmz0TrHNRuvem6w9EGMA=w405-h607-s-no-gm?authuser=0" alt="Foto 4">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczPSMRNj-SwGpYuQG3eW0n3BoHenlJD6u_uHTq7Hh0Y8MGNaVK4bV3MUEdIFcHNGCIVqq7HoO1YwhFHW1Pv_5aTDlZoJUvdJOZ7z_mm4BDocoXfW9HLwZ2XZI6lToL33Z1FtbykkI8hc8Y4DfAIgVqN8EQ=w405-h607-s-no-gm?authuser=0" alt="Foto 5">
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="imgModal">
+</div>
+
+<footer>
+    <div class="contact-info">
+        <p>Contato: mozsan79@gmail.com</p>
+        <a href="https://wa.me/5517996794273" class="whatsapp-button" target="_blank">Fale comigo no WhatsApp</a>
+    </div>
+    <div class="photographer-name">
+        <p>Mosaniel Persan</p>
+    </div>
+</footer>
+
+<script>
+    const modal = document.getElementById("myModal");
+    const modalImg = document.getElementById("imgModal");
+    const closeBtn = document.querySelector(".close");
+    const galleryImages = document.querySelectorAll(".gallery img");
+
+    galleryImages.forEach(img => {
+        img.addEventListener("click", () => {
+            modal.style.display = "flex";
+            modalImg.src = img.src;
+        });
+    });
+
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
